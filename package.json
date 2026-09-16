@@ -1,0 +1,17 @@
+{
+  "name": "clothes-shop-wildcard-sites",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "npm run data:build && next build",
+    "start": "next start",
+    "data:build": "node scripts/csv-to-json.mjs"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
+}
