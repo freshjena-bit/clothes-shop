@@ -1,3 +1,3 @@
 export default function Page() {
-  return <div>GadaLuBau</div>;
+  return <div>Hacked By GadaLuBau</div>;
 }
